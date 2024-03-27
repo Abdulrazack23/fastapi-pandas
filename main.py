@@ -5,7 +5,7 @@ import pandas as pd
 from starlette.responses import FileResponse
 import os
 
-app = FastAPI()
+app = FastAPI(title='FastApi Pandas')
 fake = Faker()
 
 def generate_fake_data(num_entries):
